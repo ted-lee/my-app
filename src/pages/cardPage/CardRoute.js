@@ -1,15 +1,15 @@
 import { useRouteMatch } from "react-router-dom";
-import UsersContainer from "./UsersContainer";
+import CardContainer from "./CardContainer";
 
-export default function UsersRoute() {
+export default function CardRoute() {
     let match = useRouteMatch({
-        path: "/users",
+        path: "/",
         exact: true,
     });
 
     return (
         <div>
-            {match && <UsersContainer /> }
+            {match && <CardContainer /> }
         </div>
     );
 }

@@ -1,0 +1,23 @@
+.container {
+    height: 20px;
+    width: 100%;
+    background-color: #888;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    border-radius: inherit;
+    text-align: right;
+}
+
+.label {
+    padding: 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: inherit;
+    text-align: right;
+}

@@ -1,0 +1,15 @@
+.ui.progress .bar>.progress {
+    white-space: nowrap;
+    position: absolute;
+    width: auto;
+    font-size: .92857143em;
+    top: 50%;
+    right: .5em;
+    left: auto;
+    bottom: auto;
+    color: rgba(255,255,255,.7);
+    text-shadow: none;
+    margin-top: -.5em;
+    font-weight: 700;
+    text-align: left;
+}
