@@ -16,13 +16,30 @@ const UserCard = ({ data }) =>{
 
             {!hide &&
                 <div className={styles.secondHeader}>
+                    <Button size="mini" className={styles.allButton} >All</Button>
                     <List horizontal>
-                        <List.Item icon="facebook f" />
-                        <List.Item icon="instagram" />
-                        <List.Item icon="twitter" />
-                        <List.Item icon="youtube" />
+                        <List.Item as="a" href="https://www.facebook.com/">
+                            <List.Content>
+                                <Icon name="facebook f" link></Icon>
+                            </List.Content>
+                        </List.Item>
+                        <List.Item as="a" href="https://www.instagram.com/">
+                            <List.Content>
+                                <Icon name="instagram" link></Icon>
+                            </List.Content>
+                        </List.Item>
+                        <List.Item as="a" href="https://www.twitter.com/">
+                            <List.Content>
+                                <Icon name="twitter" link></Icon>
+                            </List.Content>
+                        </List.Item>
+                        <List.Item as="a" href="https://www.youtube.com/">
+                            <List.Content>
+                                <Icon name="youtube" link></Icon>
+                            </List.Content>
+                        </List.Item>
                     </List>
-                    <Button size="mini" onClick={() => { setHide(true) }}>Hide</Button>
+                    <Button size="mini" className={styles.hideButton} onClick={() => { setHide(true) }}>Hide</Button>
                 </div>
             }
             <div>

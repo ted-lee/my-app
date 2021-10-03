@@ -3,7 +3,7 @@ import CardContainer from "./CardContainer";
 
 export default function CardRoute() {
     let match = useRouteMatch({
-        path: "/",
+        path: "/card",
         exact: true,
     });
 

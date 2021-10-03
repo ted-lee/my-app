@@ -17,14 +17,19 @@
 
 .secondHeader {
     background: darkgray;
-    height: 30px;
-    color: white;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
 }
 
-.secondHeader button {
+.allButton {
+    float: left;
+    height: 100% !important;
+    border-radius: 0 !important;
+    margin-left: 100px !important;
+    font-weight: bold;
+    background-color: white !important;
+    cursor: none !important;
+}
+
+.hideButton {
     float: right;
     height: 100% !important;
     border-radius: 0 !important;
