@@ -1,0 +1,6 @@
+{
+  "private": true,
+  "name": "isomorphic-redux-logger",
+  "main": "./logger.server.js",
+  "browser": "./logger.client.js"
+}

@@ -1,0 +1,1 @@
+export { fetchCount } from './counter';
